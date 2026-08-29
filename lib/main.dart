@@ -1,3 +1,4 @@
+import 'package:facebook_profile_ui/Profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget{
    return MaterialApp(
      debugShowCheckedModeBanner: false,
      title: 'Facebook Profile Page Debo',
+     home: ProfilePage(),
    );
   }
 }
